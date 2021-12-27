@@ -1,0 +1,63 @@
+.hero {
+  background-image: url("../image/product-header-bg.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  padding: 225px 0;
+  &-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &-heading {
+    font-size: 7rem;
+    font-weight: 700;
+    color: $primary-color;
+  }
+  &-caption {
+    font-size: 2.24rem;
+    font-weight: 600;
+    color: $gray-dark;
+    letter-spacing: 0.021rem;
+    margin-bottom: 30px;
+  }
+  &-desc {
+    font-size: 1.54rem;
+    font-weight: 400;
+    color: $gray-light;
+    margin-bottom: 25px;
+  }
+  &-action {
+    display: flex;
+  }
+  .btn {
+    background: transparent;
+    padding: 13.5px 44px;
+    margin-right: 10px;
+    border: 2px solid $primary-color;
+    border-radius: 8px;
+    letter-spacing: 0.03rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: $primary-color;
+    box-shadow: 0 3px 6px #c9d8f4;
+    transition: 0.5s;
+    i {
+      margin-right: 4px;
+    }
+    &:hover {
+      color: #fff;
+      background-color: $primary-color;
+    }
+
+    &--primary {
+      margin-left: 10px;
+      color: #fff;
+      border: none;
+      background: $btn-bg-primary;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

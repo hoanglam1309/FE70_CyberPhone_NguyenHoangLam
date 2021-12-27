@@ -1,0 +1,356 @@
+<!-- Layout https://cyber-phone-dark.vercel.app/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberPhone</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+    />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <!-- SIDEBAR MINI -->
+    <div class="sidebarMini">
+      <button class="sidebarMini__button">
+        <i class="fa fa-cog"></i>
+      </button>
+      <div class="sidebarMini__content">
+        <h2>Choose Mode</h2>
+        <div class="d-flex">
+          <span>Light</span>
+          <label class="switch" for="checkbox">
+            <input type="checkbox" name="" id="checkbox" />
+            <div class="slider"></div>
+          </label>
+          <span>Dark</span>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header-content container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand header-logo" href="#">CyberPhone</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars navbar-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="menu navbar-nav ml-auto">
+              <li class="menu-item nav-item active">
+                <a class="menu-link active nav-link" href="#">Home</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="menu-link nav-link" href="#">About</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="menu-link nav-link" href="#">Shop</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="menu-link nav-link" href="#">Blog</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="menu-link nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-navbar container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="hero-content">
+              <h1 class="hero-heading">CyberPhone</h1>
+              <div class="hero-caption">Best Smartphone of 2021!</div>
+              <div class="hero-desc">
+                Cras tortor mi, lobortis quis ornare in, varius scelerisque
+                urna. Vivamus imperdiet dolor nec odio convallis consequat.
+              </div>
+              <div class="hero-action">
+                <button class="btn hero-btn">
+                  <i class="fa fa-info-circle"></i>More Info
+                </button>
+                <button class="btn btn--primary">
+                  <i class="fa fa-shopping-cart"></i> Shop
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="hero-image">
+              <img src="./image/product-header2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="product">
+        <div class="product-main container">
+          <h2 class="product-heading">-Featured Products-</h2>
+          <div class="product-list row">
+            <div class="col-lg-4 col-md-6">
+              <div class="product-item">
+                <img
+                  src="./image/product1.png"
+                  alt=""
+                  class="product-thumbnail"
+                />
+                <div class="product-body">
+                  <div class="product-info">
+                    <h3 class="product-title">CyberBeats</h3>
+                    <h3 class="product-price">$99.99</h3>
+                  </div>
+                  <div class="product-location">Accessories</div>
+                  <div class="product-action">
+                    <div class="product-rate">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <button class="btn product-buy">
+                      <i class="fa fa-shopping-cart"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="product-item">
+                <img
+                  src="./image/product2.png"
+                  alt=""
+                  class="product-thumbnail"
+                />
+                <div class="product-body">
+                  <div class="product-info">
+                    <h3 class="product-title">CyberPhone</h3>
+                    <h3 class="product-price">$99.99</h3>
+                  </div>
+                  <div class="product-location">Accessories</div>
+                  <div class="product-action">
+                    <div class="product-rate">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <button class="btn product-buy">
+                      <i class="fa fa-shopping-cart"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="product-item">
+                <img
+                  src="./image/product3.png"
+                  alt=""
+                  class="product-thumbnail"
+                />
+                <div class="product-body">
+                  <div class="product-info">
+                    <h3 class="product-title">CyberTable</h3>
+                    <h3 class="product-price">$99.99</h3>
+                  </div>
+                  <div class="product-location">Accessories</div>
+                  <div class="product-action">
+                    <div class="product-rate">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <button class="btn product-buy">
+                      <i class="fa fa-shopping-cart"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="product-item">
+                <img
+                  src="./image/product4.png"
+                  alt=""
+                  class="product-thumbnail"
+                />
+                <div class="product-body">
+                  <div class="product-info">
+                    <h3 class="product-title">CyberWatch</h3>
+                    <h3 class="product-price">$99.99</h3>
+                  </div>
+                  <div class="product-location">Accessories</div>
+                  <div class="product-action">
+                    <div class="product-rate">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <button class="btn product-buy">
+                      <i class="fa fa-shopping-cart"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="product-item">
+                <img
+                  src="./image/product5.png"
+                  alt=""
+                  class="product-thumbnail"
+                />
+                <div class="product-body">
+                  <div class="product-info">
+                    <h3 class="product-title">CyberGlass</h3>
+                    <h3 class="product-price">$99.99</h3>
+                  </div>
+                  <div class="product-location">Accessories</div>
+                  <div class="product-action">
+                    <div class="product-rate">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <button class="btn product-buy">
+                      <i class="fa fa-shopping-cart"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="product-item">
+                <img
+                  src="./image/product6.png"
+                  alt=""
+                  class="product-thumbnail"
+                />
+                <div class="product-body">
+                  <div class="product-info">
+                    <h3 class="product-title">CyberGadget</h3>
+                    <h3 class="product-price">$99.99</h3>
+                  </div>
+                  <div class="product-location">Accessories</div>
+                  <div class="product-action">
+                    <div class="product-rate">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <button class="btn product-buy">
+                      <i class="fa fa-shopping-cart"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <img
+          src="./image/angle-up-light.svg"
+          alt=""
+          class="footer-top--light"
+        />
+        <img src="./image/angle-up-dark.png" alt="" class="footer-top--dark" />
+      </div>
+      <div class="footer-content container">
+        <div class="row">
+          <div class="col-lg-4 col-4 footer-copyright">© 2021</div>
+          <div class="col-lg-8 col-8">
+            <ul class="menu">
+              <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">Shop</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">Blog</a></li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      /* Sidebar Mini */
+      var toggleBtn = document.querySelector(".sidebarMini__button");
+      var sidebarMini = document.querySelector(".sidebarMini");
+      var switchBtn = document.querySelector("#checkbox");
+
+      toggleBtn.addEventListener("click", function () {
+        sidebarMini.classList.toggle("is-opened");
+      });
+
+      switchBtn.addEventListener("click", function () {
+        document.querySelector("body").classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>

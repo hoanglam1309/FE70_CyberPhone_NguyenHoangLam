@@ -1,0 +1,13 @@
+@import "./reset";
+@import "./variables";
+@import "./mixins";
+@import "./base";
+
+@import "./layouts/sidebarMini";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/product";
+@import "./layouts/footer";
+@import "./darkMode";
+
+@import "./responsive"; // sass ./app.scss ../css/app.css --watch

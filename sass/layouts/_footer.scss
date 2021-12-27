@@ -1,0 +1,37 @@
+.footer {
+  background-color: #2a73dd;
+  color: #fff;
+  padding-bottom: 60px;
+  font-size: 1.4rem;
+  &-top {
+    margin-bottom: 70px;
+    &--light {
+      display: block;
+    }
+    &--dark {
+      display: none;
+    }
+  }
+  &-content {
+    .menu {
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .menu-item {
+      padding: 10px;
+    }
+    .menu-link {
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+        opacity: 0.6;
+      }
+    }
+  }
+  &-copyright {
+    display: flex;
+    align-items: center;
+  }
+}

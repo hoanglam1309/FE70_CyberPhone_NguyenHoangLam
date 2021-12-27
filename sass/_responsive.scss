@@ -1,0 +1,42 @@
+@media screen and (max-width: 1279.98px) {
+}
+
+@media screen and (max-width: 1023.98px) {
+  .header {
+    .navbar {
+      padding: 10px 0;
+    }
+    .menu-item {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .navbar-collapse {
+    background: $bg-light;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .header {
+    .navbar {
+      padding: 10px 0;
+    }
+  }
+  .hero {
+    padding: 100px 0;
+    &-action {
+      flex-wrap: wrap;
+    }
+  }
+  .hero-heading {
+    font-size: 4.4rem;
+  }
+  .hero-image {
+    display: none;
+  }
+
+  .hero .btn--primary {
+    margin: 0;
+    box-shadow: none;
+  }
+}

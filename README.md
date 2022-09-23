@@ -2,7 +2,7 @@
 Small Landingpage training HTML, Sass and Javascript
 
 ## Overview
-- Live demo: Official website: https://lamhoang1256.github.io/fashion-era-landingpage 
+- Live demo: Official website: [https://hoanglam1309a.github.io/FE70_CyberPhone_NguyenHoangLam]([https://hoanglam1309a.github.io/FE70_CyberPhone_NguyenHoangLam/](https://hoanglam1309a.github.io/FE70_CyberPhone_NguyenHoangLam))
 - Author: Nguyễn Hoàng Lâm ([@lamhoang1256](https://github.com/lamhoang1256))
 
 ## Resources

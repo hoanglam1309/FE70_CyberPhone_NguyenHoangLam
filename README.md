@@ -2,7 +2,7 @@
 Small Landingpage training HTML, Sass and Javascript
 
 ## Overview
-- Live demo: Official website: [https://hoanglam1309a.github.io/cyberphone](https://hoanglam1309a.github.io/cyberphone)
+- Live demo: [https://hoanglam1309a.github.io/cyberphone](https://hoanglam1309a.github.io/cyberphone)
 - Author: Nguyễn Hoàng Lâm ([@lamhoang1256](https://github.com/lamhoang1256))
 
 ## Resources

@@ -25,4 +25,3 @@ Google Font: https://fonts.google.com/specimen/Nunito+Sans
 ![dark-mode](https://user-images.githubusercontent.com/96652536/191952731-ddf9c12e-5694-428c-ba39-2aa240e46711.png)
  </div>
 </details>
-![screencapture-lamhoang1256-github-io-gadget-landingpage-2022-09-23-21_15_46 (2)](https://user-images.githubusercontent.com/96652536/191982618-452de899-93ae-4f0b-bb7c-749ba6805edf.png)
